@@ -1,0 +1,176 @@
+:root{
+    --MainTitleFont: "HKGrotesk Extra-Bold";
+    --BaselineFont: "HKGrotesk Semi-Bold";
+    --QuadriTitleFont: "HKGrotesk Bold";
+
+    --TextFont: "SF UI Text Regular"; /*Description font too*/
+    --LinkFont: "SF UI Text Bold";
+
+    --MainTitreSize: 46px;
+    --TitleSection: 32px;
+    --BaselineSize: 25px;
+    --QuadriTitleSize: 24px;
+    --TextSize: 16px;
+    --LinkSize: 12px;
+
+    --BackgroundDark: #151B2B;
+    --BackgroundLight: #F9F9FD;
+    --TitleColor: #fff; /*Baseline too*/
+    --DescriptionColor: #8686B2;
+    --TextColor: #454658;
+    --LinkColor: #5D64D2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--BackgroundLight);
+}
+
+.home{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    background: var(--BackgroundDark);
+    overflow: hidden;
+}
+
+.branding{
+    height: 100%;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.branding img{
+    height: 25%;
+    width: auto;
+}
+
+.left-part, .right-part{
+    height: fit-content;
+}
+
+.left-part{
+    margin: 0 150px;
+    padding: 0 120px 0 0;
+    width: 50vw;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.title{
+    align-items: center;
+    display: flex;
+}
+
+.title h1{
+    color: var(--TitleColor);
+    font-family: var(--MainTitleFont);
+    font-size: var(--MainTitreSize);
+    margin: 15px 0;
+}
+
+.git-repo{
+    margin: 5px 0 0 30px;
+}
+
+.baseline p{
+    color: var(--TitleColor);
+    font-family: var(--BaselineFont);
+    font-size: var(--BaselineSize);
+    margin: 15px 0;
+    width: 500px;
+}
+
+.description p{
+    color: var(--DescriptionColor);
+    font-family: var(--TextFont);
+    font-size: var(--TextSize);
+    margin: 30px 0;
+    width: 510px;
+}
+
+.right-part{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.right-part img{
+    height: 80vh;
+    margin-left: 50px;
+}
+
+.buttons-join{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+}
+
+.git-join, .discord-join{
+    height: 40px;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.discord-join{
+    background-color: #7289DA;
+    margin-left: 50px;
+}
+
+.discord-join a, .git-join a{
+    color: white;
+    font-size: 14px;
+    font-family: var(--LinkFont);
+    text-decoration: none;
+
+}
+
+.discord-join i, .git-join i{
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.git-join{
+    background-color: #454658;
+}
+
+
+
+
+.howDoesIt{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 5% 10% 80%;
+    place-items: center;
+}
+
+.sect2-title{
+    font-family: var(--MainTitleFont);
+    font-size: var(--TitleSection);
+    color: var(--TextColor);
+}
+
+.howDoesIt p{
+    width: 900px;
+    text-align: center;
+    font-family: var(--TextFont);
+    font-size: var(--TextSize);
+    color: var(--TextColor);
+}
+
+.howDoesIt img{
+    height: auto;
+    width: 80%;
+}
+

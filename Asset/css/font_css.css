@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'SF UI Text Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Regular'), url('../font/SF_UI/SFUIText-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF UI Text Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Regular'), url('../font/SF_UI/SFUIText-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HKGrotesk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Regular'), url('../font/HKGrotesk/HKGrotesk-Bold.woff') format('woff');
+}
+    
+
+@font-face {
+        font-family: 'HKGrotesk Semi-Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('SF UI Text Regular'), url('../font/HKGrotesk/HKGrotesk-SemiBold.woff') format('woff');
+}
+        
+    
+
+@font-face {
+    font-family: 'HKGrotesk Extra-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Light'), url('../font/HKGrotesk/HKGrotesk-ExtraBold.woff') format('woff');
+}   
